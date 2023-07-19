@@ -162,3 +162,6 @@ body{
 .redes_sociais img {
     width: 10%;
 }
+.link_rodape{
+    text-decoration: none;
+}
