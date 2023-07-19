@@ -151,6 +151,19 @@ body{
 .evento_botao{
     width: 30%;
 }
+.galeria {
+    text-align: center;
+}
+.galeria_fotos {
+    margin-top: 1em;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+.galeria_img {
+    width: 20%;
+}
 
 .newsletter {
     height: 300px;
@@ -160,18 +173,18 @@ body{
     justify-content: center;
 }
  
-.titulo_newsletter, .subtitulo_newsletter {
+.titulo_newsletter, .subtitulo_newsletter, .subtitulo_galeria, .titulo_galeria{
     text-transform: uppercase;
 }
 
-.titulo_newsletter {
+.titulo_newsletter, .titulo_galeria {
     margin: 1em 0px;
     font-size: 2em;
     font-weight: lighter;
     text-transform: uppercase;
 }
 
-.subtitulo_newsletter {
+.subtitulo_newsletter, .subtitulo_galeria {
     font-size: 1em;
     color: rgb(119, 114, 114);
     margin: 0.25em 0px;
