@@ -1,0 +1,164 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagina {
+    width: 80%;
+    margin: 0 auto;
+}
+.cabecalho {
+    height: 600px;
+    background-image: url("imagens/ImagensGeral/cabe.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo_1 {
+    width: 10%;
+}
+
+.cabecalho_menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(32, 32, 32);
+    height: 50px;
+}
+
+.menu_item {
+    text-decoration: none;
+    color: white;
+    font-variant-caps: all-small-caps;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.noticias {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3em;
+}
+.card_img {
+    border-radius: 50%;
+    background-color: rgb(32, 32, 32);
+    width: 100px;
+}
+.card_titulo {
+    text-align: center;
+    color: rgb(119, 114, 114);
+    text-transform: uppercase;
+}
+.card_texto {
+    text-align: center;
+    padding: 0px 25px;
+    color: rgb(119, 114, 114);
+}
+.card_botao {
+    text-decoration: none;
+    color: rgb(119, 114, 114);
+    font-variant-caps: all-small-caps;
+    font-size: 1em;
+    border: solid 1px rgb(179, 173, 173);
+    border-radius: 5px;
+    padding: 2px 30px;
+}
+
+.agenda {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(231, 231, 231);
+    height: 350px;
+    text-align: center;
+}
+
+.agenda_titulo {
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.evento_selecao {
+    margin: 0px 0.5em 2em 0.5em;
+    color: rgb(119, 114, 114);
+    border-color: rgb(119, 114, 114);
+    width: 30%;
+}
+
+.agenda_subtitulo {
+    margin-bottom: 2em;
+    margin-top: 0.5em;
+    color: rgb(119, 114, 114);
+    font-size: 1em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.eventos{
+    display: flex;
+    justify-content: space-around;
+}
+.agenda_evento {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.evento_texto {
+    width: 70%;
+    color: rgb(119, 114, 114);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+}
+
+.evento_titulo{
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.evento_texto p {
+    font-size: 0.75em;
+}
+
+.evento_data {
+    color: white;
+    width: 20%;
+    height: fit-content;
+    padding: 1em 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.evento_botao{
+    width: 30%;
+}
+.rodape {
+    padding: 0 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+}
+.redes_sociais img {
+    width: 10%;
+}
