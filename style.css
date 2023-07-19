@@ -152,16 +152,30 @@ body{
     width: 30%;
 }
 .rodape {
+    text-align: center;
     padding: 0 15px;
     height: 50px;
+    height: auto;
+    flex-direction: column;
     display: flex;
     justify-content: space-between;
+    justify-content: center;
     background-color: gray;
     align-items: center;
 }
 .redes_sociais img {
     width: 10%;
+    margin-top: 1em;
+    width: 8%;
 }
 .link_rodape{
+    
     text-decoration: none;
+}
+
+.texto_rodape {
+    padding: 0.25em 0px;
+    font-size: 0.5em;
+    font-weight: bold;
+    text-transform: uppercase;
 }
