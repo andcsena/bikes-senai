@@ -151,6 +151,53 @@ body{
 .evento_botao{
     width: 30%;
 }
+
+.newsletter {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+ 
+.titulo_newsletter, .subtitulo_newsletter {
+    text-transform: uppercase;
+}
+
+.titulo_newsletter {
+    margin: 1em 0px;
+    font-size: 2em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.subtitulo_newsletter {
+    font-size: 1em;
+    color: rgb(119, 114, 114);
+    margin: 0.25em 0px;
+    font-weight: 400;
+}
+.cadastro_newsletter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.email_newsletter {
+    margin: 1em auto;
+    width: 90%;
+    height: 1.5em;
+}
+
+.botao_news {
+    margin: 0px auto;
+    width: 10%;
+    color: white;
+    background-color: rgb(32, 32, 32);
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
 .rodape {
     text-align: center;
     padding: 0 15px;
